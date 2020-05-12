@@ -1,0 +1,77 @@
+.b{
+   background-color: #FA2398;
+   background-image: linear-gradient(180deg, #FA2398 0%, #DD1F94 100%);
+}
+/* .container{
+    height: 900px;
+} */
+
+
+.fila{
+    height: 900px;
+}
+.contenedor{
+    position: relative;
+
+
+    top: 103px;
+    height: 694px;
+    width: 409px;
+
+    /* width: 409px;
+    height: 694px; */
+
+
+    background: #FFFFFF;
+    box-shadow: 0 17px 26px 0 rgba(26,27,28,0.10);
+    border-radius: 8px;
+    border-radius: 8px;
+
+}
+
+.fila2{
+    background-image: url(../img/Light-Cover-Pattern-bg@2x.png);
+   height:  210px;
+   border-radius: 8px;
+}
+
+.fila3{
+    
+    height:  25px;
+    width: 409px;
+}
+
+#img1{
+    height: 24px;
+    width: 24px;
+
+
+    
+} 
+
+.span1{
+    font-family: Nexa-XBold;
+    font-size: 14px;
+    color: #3B3B3B;
+    text-align: center;
+    line-height: 14px;
+}
+
+.span2{
+    text-align: right;
+    font-family: Nexa-XBold;
+    font-size: 14px;
+    color: #3B3B3B;
+    text-align: center;
+    line-height: 14px;
+}
+
+#img2{
+    height: 24px;
+    width: 24px;
+}
+
+
+.filalogo{
+    height: 100px;
+}
