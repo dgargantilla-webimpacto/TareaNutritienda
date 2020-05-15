@@ -117,6 +117,9 @@
     #label{
         width: 100px;
     }
+    a{
+        font-size: 11px; 
+    }
   }
 
   @media screen and (max-width: 415px) {
@@ -342,6 +345,9 @@
         height: 20px;
         font-size: 10px;
     }
+    a{
+        font-size: 12px;
+    }
   }
   @media screen and (min-width: 641px) {
     .contenedor{
@@ -443,6 +449,9 @@
     #label{
         width: 329px;
         height: 13px;
+    }
+    a{
+        font-size: 13px;
     }
   }
 
@@ -629,7 +638,6 @@ hr{
     line-height: 13px;
 }
 
-
 .inner-addon {
     position: relative;
   }
@@ -661,12 +669,11 @@ hr{
   .ca{
      text-align: right;   
     }       
-  p{
+  a{
     margin-top: 5px;
     
     font-family: Lato-Regular;
-  
-    color: #FA2398;
+    
     letter-spacing: 0;
     text-align: right;
     line-height: 20px;
