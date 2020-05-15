@@ -21,7 +21,7 @@
     }
     
     .b{
-        background-color: black;
+        background-color: none;
         background-image: none;
      }
      .cf{
@@ -89,7 +89,7 @@
     }
     .fila5{
         width: 360px;
-        height: 330px;
+        
     }
     .filaF{
         width: 360px; 
@@ -98,9 +98,6 @@
     .filaA2{
         text-align: center;
         width: 360px;
-    }
-    .c2{
-         height: 330px;  
     }
     .span4{
         height: 20px;
@@ -134,7 +131,7 @@
     }
     
     .b{
-        background-color: black;
+        background-color: none;
         background-image: none;
      }
      .cf{
@@ -210,7 +207,10 @@
     }
     .filaA2{
         text-align: center;
-        width: 360px;
+        width: 100%;
+    }
+    .filaA3{
+        width: 100%;
     }
     .c2{
          height: 330px;  
@@ -224,7 +224,9 @@
         height: 12px;
         font-size: 10px;
     }
-    
+    .ca{
+        text-align: right;
+    }
     p{
         width: 128px;
         height: 20px;
@@ -309,7 +311,7 @@
     }
     .fila5{
         width: 360px;
-        height: 330px;
+        height: 100%;
     }
     .filaF{
         width: 360px; 
@@ -440,13 +442,11 @@
     }
     #label{
         width: 329px;
-    height: 13px;
+        height: 13px;
     }
   }
 
-/* .container{
-    height: 900px;
-} */
+
 
 @font-face{
     font-family: Nexa-XBold;
@@ -460,9 +460,7 @@
     font-family: Lato-Regular;
     src: url("../fonts/Lato-Regular.ttf");
 }
-/* .fila{
-    height: 900px;
-} */
+
 
 html, body{
     width: 100%;
@@ -676,8 +674,8 @@ hr{
 
 
 #boton{
-    border-color: #FA2398;
-    background-color: #FA2398 ;
+    /* border-color: #FA2398;
+    background-color: #FA2398 ; */
     font-family: Nexa-XBold;
     font-size: 16px;
     letter-spacing: 0;
