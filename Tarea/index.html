@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="estilos.css">
+    <script src="js/lib/jquery-3.5.1.min.js"></script>
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
   </head>
   <body class="b">
@@ -111,22 +112,25 @@
                             <label id="label" for="">Email</label>
                             <input type="text" id="email" class="form-control"  aria-describedby="helpId">
                             
-                            <div class="inner-addon right-addon">
+                            <div class="inner-addon right-addon" id="show_hide_password">
                               <label id="label" for="">Contraseña</label>
-                             <input type="password" id="password" class="form-control"  aria-describedby="button-addon2">
+                              <input type="password" id="password" class="form-control"  aria-describedby="button-addon2">
                               <!-- <button class="btn btn-white "><img src="img/hide.svg"></img></button> -->
-                              <img type="button" class="glyphicon" src="img/hide.svg">
-                              <!-- <div class="input-group-append"> -->
-                                <!-- <button class="btn btn-outline-secondary" type="button" id="button-addon2">-->
-                                <!-- </button>  -->
+                              <a href="" class="icone"><img class="" src="img/hide.svg"></a> 
+                              
+                              <!-- <div class="input-group-append">
+                                <button class="btn btn-light glyphicon"><img src="img/hide.svg"></button> 
+                              </div> -->
+                                
                               </div> 
                             </div>
                            
 
-                            <div class="row justify-content-around mt-2 mb-2">
+                            <div class="row justify-content-around mt-2">
                               <div class="col-2">
+                                <input type="checkbox" class="form-check-input checkbox">
                                 <label class="form-check-label">
-                                  <input type="checkbox" class="form-check-input" value="checkedValue" checked>
+                                  
                                   Recuérdame
                                 </label>
                               </div>
@@ -135,7 +139,7 @@
                               </div>
                               
                             </div>
-                            <div class="row justify-content-center mt-4 filabtn">
+                            <div class="row justify-content-center mt-2 filabtn">
                               <div class="col-11 p-0 ">
                                 <button type="button" class="btn btn-primary btn-block" id="boton">Iniciar sesión</button>
                               </div>
@@ -158,5 +162,36 @@
           </div>
       </div>
    
+     
+      <script>
+        $(document).ready(function() {
+          $("#show_hide_password a").on('click', function(event) {
+            event.preventDefault();
+            if($('#show_hide_password input').attr("type") == "text"){
+              $('#show_hide_password input').attr('type', 'password');
+              $('#show_hide_password img').replaceWith('<img src="img/hide.svg">');
+              // $('#show_hide_password i').removeClass( "fa-eye" );
+            }else if($('#show_hide_password input').attr("type") == "password"){
+              $('#show_hide_password input').attr('type', 'text');
+              // $('#show_hide_password i').removeClass( "fa-eye-slash" );
+              $('#show_hide_password img').replaceWith( '<img src="img/show.svg">' );
+            }
+          });
+        });
+
+
+        // $(function(){
+        //   $(".checkbox").click(function(){
+        //     console.log("whatever"+this);
+        //     $(this).removeClass("")
+        //     .addClass('checked')
+        //   });
+        // });
+        // $(document).ready(function(){
+        //   $('input:radio').screwDefaultButtons({
+        //     cheked:"url(img/check_for_checkbox.svg)"
+        //   })
+        // });
+      </script>
   </body>
 </html>

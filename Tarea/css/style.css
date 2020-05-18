@@ -363,7 +363,8 @@
 
     .b{
         background-color: #FA2398;
-        background-image: linear-gradient(180deg, #FA2398 0%, #DD1F94 100%);
+        background-image: linear-gradient(180deg, #FA2398 0%, #DD1F94 100%) no-repeat center center;
+        background-size: auto;
         /* min-height: 100%; */
      }
 
@@ -620,6 +621,7 @@ hr{
 #password{
     height: 42px;
 
+
     background: #FFFFFF;
     border: 1px solid #DADCE1;  
     border-radius: 4px;
@@ -641,14 +643,18 @@ hr{
 .inner-addon {
     position: relative;
   }
-  .inner-addon .glyphicon {
+  .inner-addon .icone {
     position: absolute;
     padding: 10px;
-    pointer-events: none;
+    /* pointer-events: none; */
   }
-  .right-addon .glyphicon {
-    
+  .right-addon .icone {
+    background-size: contain;
+    border: none;
+    outline: none;
+    margin-top: 0px;
 
+    z-index: 2;
     opacity: .5;
     right: 0px;
     top:25px;
@@ -689,3 +695,34 @@ hr{
     text-align: center;
     line-height: 42px;
 }
+
+/* input[type=checkbox] {
+    display: none;
+    border: 1px;
+  }
+  
+  input[type=checkbox] + label {  
+    height: 50px;
+    width: 50px;
+    background-image:none;
+    display: inline-block;
+  }
+  
+  input[type=checkbox]:checked + label {
+    background-image: url('../img/check_for_checkbox.svg');
+  } */
+
+/* .checkbox{
+    width: 22px;
+    height: 18px;
+    border: 1px solid #C0C2C8;
+     border-radius: 10%;
+  }
+  .checked{
+    background:url("../img/check_for_checkbox.svg") no-repeat 30% 60% ;
+    border:solid black 2px;
+  }
+
+  #show_hide_password{
+      z-index: 1;
+  } */
