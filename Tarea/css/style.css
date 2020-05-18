@@ -398,7 +398,8 @@
     .filalogo{
         width: 409px;
         height: 30px;
-        margin-top: 40px;
+        margin-top: 35px;
+        padding-left: 10px;
     }
     
     
@@ -406,7 +407,7 @@
         height: 30px;
         width: 409px;
     
-        margin-top: 40px;
+        margin-top: 53px;
     }
     .span3{
         width: 72px;
@@ -417,8 +418,10 @@
     .span4{
         height: 20px;
         font-size: 14px;
+        margin-top: 5px;
     }
     .span5{
+        text-decoration: bold;
         width: 242px;
         height: 12px;
         font-size: 12px;
@@ -495,7 +498,7 @@ html, body{
 #img1{
     height: 24px;
     width: 24px;
-
+    /* margin-bottom: 5px; */
 
     
 } 
@@ -503,30 +506,30 @@ html, body{
     text-align: left;
 }
 .span1{
-    display: inline-block;
+    display: inline;
    
     font-family: Nexa-XBold;
     font-size: 14px;
     color: #3B3B3B;
     text-align: center;
-    line-height: 14px;
+    line-height: 12px;
 }
 .c{
     text-align: right;
 }
 .span2{
     display: inline-block;
-
+    letter-spacing: 1px;
 
     /* width:  95px;
     height: 14px; */
 
     
     font-family: Nexa-XBold;
-    font-size: 14px;
+    font-size: 12px;
     color: #3B3B3B;
     text-align: center;
-    line-height: 14px;
+    line-height: 13px;
 
     text-decoration: underline #3B3B3B;
 }
@@ -593,23 +596,28 @@ html, body{
     align-items: center;
 } */
 
-hr{
+.hr{
     width: 33px;
     height: 1px;
     background: #9EA0A4;
 }
 
-.hr{
+.hr2{
     width: 43px;
     height: 1px;
     background: #9EA0A4;
+}
+
+.icone img{
+    width: 25px;
+    height: 25px;
 }
 .filaF{
     height: 300px;
     /* width: 409px; */
 }
 #email{
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     height: 42px;
 
     background: #FFFFFF;
@@ -657,7 +665,7 @@ hr{
     z-index: 2;
     opacity: .5;
     right: 0px;
-    top:25px;
+    top:30px;
   }
   .right-addon input {
     padding-right: 30px;
@@ -689,6 +697,7 @@ hr{
 #boton{
     /* border-color: #FA2398;
     background-color: #FA2398 ; */
+    height: 80%;
     font-family: Nexa-XBold;
     font-size: 16px;
     letter-spacing: 0;
