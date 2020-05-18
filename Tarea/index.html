@@ -126,11 +126,13 @@
                             </div>
                            
 
-                            <div class="row justify-content-around mt-2">
+                            <div class="row justify-content-between mt-2">
                               <div class="col-2">
-                                <input type="checkbox" class="form-check-input checkbox">
-                                <label class="form-check-label">
-                                  
+                                <!-- <input class="custom-radio-checkbox__input" type="checkbox" >
+                                <span class="custom-radio-checkbox__show custom-radio-checkbox__show--checkbox"></span> -->
+                                <label class="custom-radio-checkbox">
+                                  <input class="custom-radio-checkbox__input" type="checkbox" >
+                                  <span class="custom-radio-checkbox__show custom-radio-checkbox__show--checkbox"></span>
                                   Recuérdame
                                 </label>
                               </div>
@@ -163,21 +165,22 @@
       </div>
    
      
+      <script src="js/showPass.js"></script>
       <script>
-        $(document).ready(function() {
-          $("#show_hide_password a").on('click', function(event) {
-            event.preventDefault();
-            if($('#show_hide_password input').attr("type") == "text"){
-              $('#show_hide_password input').attr('type', 'password');
-              $('#show_hide_password img').replaceWith('<img src="img/hide.svg">');
-              // $('#show_hide_password i').removeClass( "fa-eye" );
-            }else if($('#show_hide_password input').attr("type") == "password"){
-              $('#show_hide_password input').attr('type', 'text');
-              // $('#show_hide_password i').removeClass( "fa-eye-slash" );
-              $('#show_hide_password img').replaceWith( '<img src="img/show.svg">' );
-            }
-          });
-        });
+        // $(document).ready(function() {
+        //   $("#show_hide_password a").on('click', function(event) {
+        //     event.preventDefault();
+        //     if($('#show_hide_password input').attr("type") == "text"){
+        //       $('#show_hide_password input').attr('type', 'password');
+        //       $('#show_hide_password img').replaceWith('<img src="img/hide.svg">');
+        //       // $('#show_hide_password i').removeClass( "fa-eye" );
+        //     }else if($('#show_hide_password input').attr("type") == "password"){
+        //       $('#show_hide_password input').attr('type', 'text');
+        //       // $('#show_hide_password i').removeClass( "fa-eye-slash" );
+        //       $('#show_hide_password img').replaceWith( '<img src="img/show.svg">' );
+        //     }
+        //   });
+        // });
 
 
         // $(function(){

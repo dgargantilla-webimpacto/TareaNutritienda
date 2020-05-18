@@ -696,6 +696,10 @@ hr{
     line-height: 42px;
 }
 
+.custom-radio-checkbox span{
+    border: 1px solid;
+}
+
 /* input[type=checkbox] {
     display: none;
     border: 1px;
