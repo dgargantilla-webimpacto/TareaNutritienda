@@ -9915,7 +9915,7 @@ h3 {
   display: inline-flex;
   align-items: center;
   cursor: pointer;
-  
+  font-size: 14px;
 }
 
 /* Modificador para dar la imagen de checkbox */

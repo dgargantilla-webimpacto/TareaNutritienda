@@ -434,10 +434,8 @@
         height: 130px;
         width: 409px;
     }
-    
-    
     .fila5{
-        height: 354px;
+        height: 314px;
         width: 409px;
     }
     .filaA2{
@@ -455,7 +453,13 @@
         height: 13px;
     }
     a{
-        font-size: 13px;
+        font-size: 14px;
+    }
+    .filabtn{
+        height: 18%;
+    }
+    .colbtn{
+        height: 90%;
     }
   }
 
@@ -598,13 +602,13 @@ html, body{
 
 .hr{
     width: 33px;
-    height: 1px;
+    margin-top: 11px;
     background: #9EA0A4;
 }
 
 .hr2{
     width: 43px;
-    height: 1px;
+    
     background: #9EA0A4;
 }
 
@@ -663,7 +667,7 @@ html, body{
     margin-top: 0px;
 
     z-index: 2;
-    opacity: .5;
+    opacity: .3;
     right: 0px;
     top:30px;
   }
@@ -697,7 +701,7 @@ html, body{
 #boton{
     /* border-color: #FA2398;
     background-color: #FA2398 ; */
-    height: 80%;
+    /* height: 100%; */
     font-family: Nexa-XBold;
     font-size: 16px;
     letter-spacing: 0;
@@ -709,6 +713,9 @@ html, body{
     border: 1px solid;
 }
 
+.filaA2{
+    display: inline-block;  
+}
 /* input[type=checkbox] {
     display: none;
     border: 1px;
