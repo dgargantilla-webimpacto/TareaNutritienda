@@ -32,17 +32,17 @@
                   <div class="row justify-content-center fila2">
                       
                       <!-- fila de arriba -->
-                      <div class="row justify-content-around fila3 mt-3">
+                      <div class="row justify-content-around fila3 mt-2 mt-sm-3">
                         <!-- <div class="col-1">
                           
                         </div> -->
-                        <div class="col-5 col-xs-5 col-sm-5 c1">
+                        <div class="col-5 col-xs-5 col-sm-5 pl-2 c1">
                           <img id="img1" src="img/go-back.svg">
                           <span class="span1">
                             Volver
                           </span>
                         </div>
-                        <div class="col-7 col-xs-7 col-sm-7 c">
+                        <div class="col-7 col-xs-7 col-sm-7 pr-2 c">
                           <span class="span2">
                             Nueva cuenta
                           </span>
@@ -75,7 +75,7 @@
 
                       <div class="container cf">
 
-                        <div class="row justify-content-center align-items-center mt-3  filaA2">
+                        <div class="row justify-content-center align-items-center mt-3 mt-sm-4  filaA2">
                           <hr class="hr">
                           <span class="span5">ACCESO RÁPIDO CON REDES SOCIALES</span>
                           <hr class="hr">
@@ -84,14 +84,14 @@
                           <div class="col-1 p-0"><hr class="hr"></div>   -->
                         </div>
 
-                        <div class="row justify-content-center mt-3 filaA3">
-                          <div class="col-2">
+                        <div class="row justify-content-center mt-4 filaA3">
+                          <div class="col-2 m-2 m-sm-1">
                             <img src="img/connect-Facebook-42px.svg">                         
                           </div>
-                          <div class="col-2">
+                          <div class="col-2 m-2 m-sm-1">
                             <img src="img/connect-Google-42px.svg">
                           </div>                            
-                          <div class="col-2">
+                          <div class="col-2 m-2 m-sm-1">
                             <img src="img/connect-Twitter-42px.svg">
                           </div>                          
                         </div>
@@ -101,9 +101,9 @@
 
                     
                     <!-- Formulario -->
-                    <div class="row fila5">
+                    <div class="row mt-sm-3 fila5">
                       <div class="container c2 ">
-                        <div class="row justify-content-center align-items-center filaA2">
+                        <div class="row justify-content-center align-items-center mt-2 mt-sm-0 filaA2">
                           <!-- <div class="col-1 col-sm-1 p-0"><hr class="hr2"></div>
                           <div class="col-8 col-sm-8 p-0"><span class="span5">ACCESO CON EMAIL Y CONTRASEÑA</span></div>
                           <div class="col-1 col-sm-1 p-0"><hr class="hr2"></div>  -->
@@ -113,29 +113,23 @@
                         </div>
 
                         <div class="row justify-content-center filaF">
-                          <div class="col-10 col-sm-10 p-1">
-                          <div class="form-group mt-2 mb-0">
+                          <div class="col-11 col-sm-10 p-1">
+                          <div class="form-group mt-4 mt-sm-3 mb-0">
                             <label id="label" for="">Email</label>
                             <input type="text" id="email" class="form-control"  aria-describedby="helpId">
                             
                             <div class="inner-addon right-addon" id="show_hide_password">
+                              
                               <label id="label" for="">Contraseña</label>
                               <input type="password" id="password" class="form-control"  aria-describedby="button-addon2">
-                              <!-- <button class="btn btn-white "><img src="img/hide.svg"></img></button> -->
                               <a href="" class="icone"><img class="" src="img/hide.svg"></a> 
-                              
-                              <!-- <div class="input-group-append">
-                                <button class="btn btn-light glyphicon"><img src="img/hide.svg"></button> 
-                              </div> -->
                                 
                               </div> 
                             </div>
                            
 
-                            <div class="row justify-content-between mt-3">
+                            <div class="row justify-content-between mt-2 mt-sm-3">
                               <div class="col-2">
-                                <!-- <input class="custom-radio-checkbox__input" type="checkbox" >
-                                <span class="custom-radio-checkbox__show custom-radio-checkbox__show--checkbox"></span> -->
                                 <label class="custom-radio-checkbox">
                                   <input class="custom-radio-checkbox__input" type="checkbox" >
                                   <span class="custom-radio-checkbox__show custom-radio-checkbox__show--checkbox"></span>
@@ -147,8 +141,8 @@
                               </div>
                               
                             </div>
-                            <div class="row justify-content-center filabtn">
-                              <div class="col-11 p-0 mt-1 colbtn">
+                            <div class="row justify-content-center mt-2 mt-sm-0 filabtn">
+                              <div class="col-11 p-0 mt-sm-1 colbtn">
                                 <button type="button" class="btn btn-primary p-0 btn-block" id="boton">Iniciar sesión</button>
                               </div>
                               
@@ -172,35 +166,5 @@
    
      
       <script src="js/showPass.js"></script>
-      <script>
-        // $(document).ready(function() {
-        //   $("#show_hide_password a").on('click', function(event) {
-        //     event.preventDefault();
-        //     if($('#show_hide_password input').attr("type") == "text"){
-        //       $('#show_hide_password input').attr('type', 'password');
-        //       $('#show_hide_password img').replaceWith('<img src="img/hide.svg">');
-        //       // $('#show_hide_password i').removeClass( "fa-eye" );
-        //     }else if($('#show_hide_password input').attr("type") == "password"){
-        //       $('#show_hide_password input').attr('type', 'text');
-        //       // $('#show_hide_password i').removeClass( "fa-eye-slash" );
-        //       $('#show_hide_password img').replaceWith( '<img src="img/show.svg">' );
-        //     }
-        //   });
-        // });
-
-
-        // $(function(){
-        //   $(".checkbox").click(function(){
-        //     console.log("whatever"+this);
-        //     $(this).removeClass("")
-        //     .addClass('checked')
-        //   });
-        // });
-        // $(document).ready(function(){
-        //   $('input:radio').screwDefaultButtons({
-        //     cheked:"url(img/check_for_checkbox.svg)"
-        //   })
-        // });
-      </script>
   </body>
 </html>

@@ -9,7 +9,7 @@
   }
 
 
-@media screen and (max-width: 361px) {
+@media screen and (max-width: 376px) {
     html{
         height: 640px;
     }
@@ -62,16 +62,17 @@
     }
 
     .c1{
-        padding: 0px;
+        
+        padding-left: 10px;
     }
     .filalogo{
-        width: 100%;
-        height: 50px;
+        width: 50%;
+        height: 40px;
         margin-top: 30px;
     }
     .filalogo img{
-        width: 60%;
-        height: 60%;
+        margin-top: 10px;
+        margin-left: 10px;
     }
     .filaLoguin{
         height: 30px;
@@ -80,7 +81,9 @@
      
         margin-top: 10px;
     }
-    
+    .filaLoguin .col-4{
+        padding-top: 14px;
+    }
     .span3{
         width: 72px;
         height: 30px;
@@ -295,8 +298,8 @@
         margin-top: 30px;
     }
     .filalogo img{
-        width: 80%;
-        height: 80%;
+        width: 60%;
+        height: 60%;
     }
     .filaLoguin{
         height: 50px;
@@ -335,9 +338,9 @@
         font-size: 13px;
     }
     .span5{
-        width: 202px;
+        width: 250px;
         height: 12px;
-        font-size: 10px;
+        font-size: 12px;
     }
     
     p{
@@ -417,7 +420,7 @@
     }
     .span4{
         height: 20px;
-        font-size: 14px;
+        font-size: 13px;
         margin-top: 5px;
     }
     .span5{
@@ -569,9 +572,8 @@ html, body{
    
 
     font-family: Lato-Regular;
-    
+    letter-spacing: 0.3px; 
     color: #84868A;
-    letter-spacing: 0;
     text-align: center;
     line-height: 20px;
 }
@@ -588,7 +590,7 @@ html, body{
 .span5{
     display: inline-block;
     /* margin-right: 10px; */
-
+    letter-spacing: 0.3px;
     font-family: Nexa-Bold;
     
     color: #3B3B3B;
@@ -602,13 +604,13 @@ html, body{
 
 .hr{
     width: 33px;
-    margin-top: 11px;
+    margin: 5px;
     background: #9EA0A4;
 }
 
 .hr2{
     width: 43px;
-    
+    margin: 0px;
     background: #9EA0A4;
 }
 
